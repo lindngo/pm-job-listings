@@ -12,7 +12,13 @@ from sklearn.decomposition import LatentDirichletAllocation
 jd = pd.read_csv('jds.csv')
 
 desc = jd.iloc[:,2]
-print(desc)
+desc_list = desc.values.tolist()
 
 qual = jd.iloc[:,3]
-print(qual)
+qual_list = qual.values.tolist()
+
+# Analyzing listing description first
+
+
+
+# Analysing listing qualifications second
