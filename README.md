@@ -14,3 +14,7 @@ https://github.com/lindngo/product-management/blob/main/jds.csv
 
 ## Conclusions
 
+![image](https://user-images.githubusercontent.com/63205351/233500344-34dbe17e-fa9f-41d6-86cf-ddbdf3ebee4d.png)
+My first line of action was to tackle the job descriptions. Creating 6 clusters, 
+
+![image](https://user-images.githubusercontent.com/63205351/233500363-3bf8f102-d3da-4522-8a5f-4b54d3759f1a.png)
