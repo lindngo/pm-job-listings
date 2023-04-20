@@ -1,21 +1,15 @@
 ## Clustering PM Job Descriptions
-# We use K-Means and Agglomerative Clustering for clustering analysis. 
-# To better understand overarching similarities 
+# K-Means and Agglomerative Clustering will be used to understand similarities across the collected job descriptions. 
 
 import pandas as pd
 from sklearn.cluster import KMeans
-import nltk
-nltk.download('punkt') 
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('stopwords')
-nltk.download('averaged_perceptron_tagger') 
-
-import gensim
-from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
+import warnings
+warnings.filterwarnings("ignore")
 
 jd = pd.read_csv('jds.csv')
+
+# Creating two lists to hold the job descriptions and their respective qualifications. 
 
 desc = jd.iloc[:,2]
 desc_list = desc.values.tolist()
@@ -23,21 +17,48 @@ desc_list = desc.values.tolist()
 qual = jd.iloc[:,3]
 qual_list = qual.values.tolist()
 
-# Analyzing listing description (desc_list) first
+# 1. Analyzing job description (desc_list) 
+vectorizer1 = TfidfVectorizer(stop_words = 'english')
+X1 = vectorizer1.fit_transform(desc_list)
 
-# 1. Tokenize, 2. Lemmatize, 3. Remove stop words and punctuation
+# 1a. Choosing number of clusters
+model1 = KMeans(n_clusters = 6)
+model1.fit(X1)
+print(model1.cluster_centers_)
 
-processed_desc = []
+model1.fit_transform(X1)
+model1_clusters = model1.labels_.tolist()
+print(model1_clusters)
 
-for x in processed_desc:
-    token = nltk.word_tokenize(x)
-    lemmatizer = nltk.stem.WordNetLemmatizer()
-    lemmatized_token = [lemmatizer.lemmatize(x) for x in token if x.isalpha()]
-    stop_words_removed = [x for x in lemmatized_token if not x in stopwords.words('english') if x.isalpha()]
-    processed_desc.append(stop_words_removed)
+# 1b. Finding the characteristics for each cluster
+centroids = model1.cluster_centers_.argsort()[:,::-1]
+terms = vectorizer1.get_feature_names_out()
 
-#processed_desc
-processed_desc2 = list(map(' '.join, processed_desc))
-print(processed_desc2)
+for c in range(6):
+    print('Cluster%d:' % c)
 
-# Analysing listing qualifications (qual_list) second
+    for ind in centroids[c, :6]:
+        print(terms[ind])
+
+# 2. Analzying qualifications (qual_list)
+vectorizer2 = TfidfVectorizer(stop_words = 'english')
+X2 = vectorizer2.fit_transform(qual_list)
+
+# 2a. Choosing number of clusters
+model2 = KMeans(n_clusters = 6)
+model2.fit(X2)
+print(model2.cluster_centers_)
+
+model2.fit_transform(X2)
+model2_clusters = model2.labels_.tolist()
+print(model2_clusters)
+
+# 2b. Finding the characteristics for each cluster
+centroids2 = model2.cluster_centers_.argsort()[:,::-1]
+terms = vectorizer2.get_feature_names_out()
+
+for c in range(6):
+    print('Cluster%d:' % c)
+
+    for ind in centroids2[c, :6]:
+        print(terms[ind])
