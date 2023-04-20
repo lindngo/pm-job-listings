@@ -1,7 +1,7 @@
 # Product Management (PM) Job Listings Analysis
 
 ## Overview
-As I have been job searching for product positions, I was curious on how I could better optimize my resume to fit the keywords, phrases, and qualifications that companies are looking for. I began parsing through PM listings on LinkedIn to compile an Excel sheet of position names, job descriptions, and qualifications. With Python, I used pandas and sklearn to perform K-Means and Agglomerative Clustering to better understand what common similarities stretch across these listings. 
+As I have been job searching for product positions, I was curious on how I could better optimize my resume to fit the keywords, phrases, and qualifications that companies are looking for. I began parsing through PM listings on LinkedIn to compile an Excel sheet of position names, job descriptions, and qualifications. I mainly focused on entry level PM roles based in Seattle, WA. With Python, I used pandas and sklearn to perform K-Means and Agglomerative Clustering to better understand what common similarities stretch across these listings. 
 
 ## Dataset
 https://github.com/lindngo/product-management/blob/main/jds.csv
