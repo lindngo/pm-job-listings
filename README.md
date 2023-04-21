@@ -22,8 +22,8 @@ My first line of action was to tackle the job descriptions. Choosing 6 clusters 
 - Cluster 1: The PM must be able to understand and communicate clearly to their team, users, and stakeholders.
 - Cluster 2: PMs should have a drive to develop solutions to customer issues.
 - Cluster 3: It is important that PMs do well in team environments that work with data and products.
-- Cluster 4: 
-- Cluster 5:
+- Cluster 4: For this cluster, it seemed to be more company vision focused, which I chose to move forward as it was not a direct relation to the PM responsibilties.
+- Cluster 5: A PM should be able to help the business drive their sales with their product solutions.
 
 ![image](https://user-images.githubusercontent.com/63205351/233500363-3bf8f102-d3da-4522-8a5f-4b54d3759f1a.png)
 
