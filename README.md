@@ -1,15 +1,15 @@
 # Product Management (PM) Job Listings Analysis
 
 ## Overview
-As I've been job searching for product positions, I was curious how I can better optimize my resume to fit the keywords, phrases, and qualifications that companies are looking for. I began sifting through PM listings on LinkedIn to compile an Excel sheet of position names, job descriptions, and qualifications. I mainly focused on entry level PM roles. With Python, I used pandas and sklearn to perform K-Means and Agglomerative Clustering to better understand what common similarities stretch across these listings. 
+As I've been job searching for product positions, I was curious how I can better optimize my resume to fit the keywords, phrases, and qualifications that companies are looking for. I sifted through PM listings on LinkedIn to compile an Excel sheet of position names, job descriptions, and qualifications. I mainly focused on entry level PM roles. With Python, I used pandas and sklearn to perform k-means and agglomerative clustering to better understand what common similarities are shared across these listings. 
 
 ## Dataset
 https://github.com/lindngo/product-management/blob/main/jds.csv
 
 ## Dataset Factors
 - Position Name: Title of the job
-- Job Post Link: Direct job posting link on the company's career page
-- Job Description: Overview of responsibilities and duties that the incoming PM will take on
+- Job Post Link: Job posting link on the company's career page
+- Job Description: Overview of responsibilities and duties
 - Qualifications/Desired Skills: Target skillset that the company is looking for in a qualified PM candidate
 
 ## Conclusions
@@ -22,7 +22,7 @@ My firsp step was to tackle the job descriptions. Choosing 6 clusters for my dat
 - Cluster 1: The PM must be able to understand and communicate clearly to their team, users, and stakeholders.
 - Cluster 2: PMs should have a drive to develop solutions to customer issues.
 - Cluster 3: It is important that PMs do well in team environments that work with data and products.
-- Cluster 4: Since this cluster seemed to be more company vision focused, I didn't focus too much on this information.
+- Cluster 4: Since this cluster seemed to be more company vision focused, I didn't focus much on this information.
 - Cluster 5: A PM should be able to help the business drive their sales with their product solutions.
 
 ![image](https://user-images.githubusercontent.com/63205351/233500363-3bf8f102-d3da-4522-8a5f-4b54d3759f1a.png)
