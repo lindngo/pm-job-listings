@@ -16,11 +16,11 @@ https://github.com/lindngo/product-management/blob/main/jds.csv
 
 ![image](https://user-images.githubusercontent.com/63205351/233500344-34dbe17e-fa9f-41d6-86cf-ddbdf3ebee4d.png)
 
-My first step was to examine the job descriptions. Choosing 6 clusters, I wrote a code to review each of the job descriptions and group similar terms together. After sorting it from most similar to least similar in each cluster, I retrieved the top 5 terms of each cluster, as pictured above. With this, I interpreted the following:
+My first step was to examine the job descriptions. Choosing 6 clusters, I wrote a code to review each of the job descriptions and group similar terms together. After sorting from most similar to least similar in each cluster, I retrieved the top terms of each cluster, as pictured above. With this, I interpreted the following:
 
 - Cluster 0: PMs are responsible for product development that meets existing market trend needs.
 - Cluster 1: The PM must be able to understand and communicate clearly to their team, users, and stakeholders.
-- Cluster 2: PMs should have a drive to develop solutions to customer issues.
+- Cluster 2: PMs should be driven to develop fitting solutions to customer issues.
 - Cluster 3: It is important that PMs do well in team environments that work with data and products.
 - Cluster 4: Since this cluster seemed to be more company vision focused, I didn't focus much on this information.
 - Cluster 5: A PM should be able to help the business drive their sales with their product solutions.
@@ -29,11 +29,10 @@ My first step was to examine the job descriptions. Choosing 6 clusters, I wrote 
 
 For the qualifications, I followed the same steps that I had executed for job descriptions. With the 6 clusters generated, I interpreted the following:
 - Cluster 0: Companies value applicants with experience related to analytics.
-- Cluster 1: Since this cluster talked mainly about relocation and not about specific qualifications, I didn't focus too much on this information.
+- Cluster 1: Since this cluster talked mainly about relocation and not about specific qualifications, I didn't focus much on this information.
 - Cluster 2: A strong applicant should have strong interpersonal skills and business knowledge.
-- Cluster 3: They should also have product/project management experience, as well as working on a team.
+- Cluster 3: They should also have product/project management and team collaboration experience.
 - Cluster 4: Having experience working in a start-up environment is a plus, especially if the candidate can demonstrate their product success.
-- Cluster 5: I believe this cluster is focusing on students/recent graduates, hence the terms "majors" and "gpa".
+- Cluster 5: This cluster focuses on students/recent graduates, hence the terms "majors" and "gpa".
 
-
-For next steps, I plan to work on collecting more data for the jds.csv, as the file only contains 10 listings currently.
+For future steps, I plan to work on collecting more data for the jds.csv to create even more accurate clusters.
