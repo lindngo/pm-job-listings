@@ -16,7 +16,7 @@ https://github.com/lindngo/product-management/blob/main/jds.csv
 
 ![image](https://user-images.githubusercontent.com/63205351/233500344-34dbe17e-fa9f-41d6-86cf-ddbdf3ebee4d.png)
 
-My firsp step was to tackle the job descriptions. Choosing 6 clusters for my data, I wrote a code to review each of the job descriptions and group similar terms together. After sorting it from most similar to least similar in each cluster, I retrieved the top 5 terms of each cluster, as pictured above. With this, I interpreted the following:
+My first step was to examine the job descriptions. Choosing 6 clusters, I wrote a code to review each of the job descriptions and group similar terms together. After sorting it from most similar to least similar in each cluster, I retrieved the top 5 terms of each cluster, as pictured above. With this, I interpreted the following:
 
 - Cluster 0: PMs are responsible for product development that meets existing market trend needs.
 - Cluster 1: The PM must be able to understand and communicate clearly to their team, users, and stakeholders.
