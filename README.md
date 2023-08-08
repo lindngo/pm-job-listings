@@ -6,7 +6,7 @@ Over the past few months, I've been searching for and applying to product positi
 ## Dataset
 https://github.com/lindngo/product-management/blob/main/jds.csv
 
-## Dataset Factors
+## Dataset Variables
 - Position Name: Title of the job
 - Job Post Link: Job posting link on the company's career page
 - Job Description: Overview of responsibilities and duties
