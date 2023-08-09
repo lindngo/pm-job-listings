@@ -18,7 +18,7 @@ https://github.com/lindngo/product-management/blob/main/jds.csv
 
 My first step was to examine the job descriptions. Choosing 6 clusters, I wrote a code to review each of the job descriptions and group similar terms together. After sorting from most similar to least similar in each cluster, I retrieved the top terms of each cluster, as pictured above. With this, I interpreted the following:
 
-- Cluster 0: PMs are responsible for product development that meets existing market trend needs.
+- Cluster 0: PMs are responsible for product development that meet existing market trend needs.
 - Cluster 1: The PM must be able to understand and communicate clearly to their team, users, and stakeholders.
 - Cluster 2: PMs should be driven to develop fitting solutions to customer issues.
 - Cluster 3: It is important that PMs do well in team environments that work with data and products.
