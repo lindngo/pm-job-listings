@@ -31,7 +31,7 @@ For the qualifications, I followed the same steps that I had executed for job de
 - Cluster 0: Companies value applicants with experience related to analytics.
 - Cluster 1: Since this cluster talked mainly about relocation and not about specific qualifications, I didn't focus much on this information.
 - Cluster 2: A strong applicant has strong interpersonal skills and business knowledge.
-- Cluster 3: They should also have product/project management and team collaboration experience.
+- Cluster 3: They also have product/project management and team collaboration experience.
 - Cluster 4: Having experience in a start-up environment is a plus, especially if the candidate can demonstrate their product success.
 - Cluster 5: This cluster focuses on students/recent graduates, hence the terms "majors" and "gpa".
 
