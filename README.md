@@ -1,7 +1,7 @@
 # Product Management (PM) Job Listings Analysis
 
 ## Overview
-When I was job searching in 2023, my goal was to take a step into product management. During this transition, I was curious on how I can better optimize my resume to fit the keywords, phrases, and qualifications that companies are looking for. I sifted through PM listings on LinkedIn to compile an Excel sheet of position names, job descriptions, and qualifications. I mainly focused on entry level PM roles. With Python, I used pandas and sklearn to perform k-means and agglomerative clustering to better understand what similarities are shared across these listings. 
+When I was job searching in 2023, my goal was to take a step into product management. During this transition, I was curious on how I can better optimize my resume to fit the keywords, phrases, and qualifications that companies are looking for. I sifted through PM listings on LinkedIn to compile an Excel sheet of position names, job descriptions, and qualifications. I focused on entry level PM roles. With Python, I used pandas and sklearn to perform k-means and agglomerative clustering to better understand what similarities are shared across these listings. 
 
 ## Dataset
 https://github.com/lindngo/product-management/blob/main/jds.csv
